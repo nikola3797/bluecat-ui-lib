@@ -37,7 +37,13 @@
   "peerDependencies": {
     "react": "18.3.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikola3797/bluecat-ui-lib"
+  },
+  "author": "Nikola Veljic",
+  "license": "MIT",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@nikola3797"
+    "registry": "https://npm.pkg.github.com/"
   }
 }
