@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      -name: Check if token is valid
+      - name: Check if token is valid
         run: echo "NPM_AUTH_TOKEN is set"
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
