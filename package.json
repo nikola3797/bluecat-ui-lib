@@ -1,6 +1,6 @@
 {
-  "name": "@nikola3797/bluecat-ui-lib",
-  "version": "1.0.0",
+  "name": "@nikolaveljic/bluecat-ui-lib",
+  "version": "1.0.1",
   "description": "component ui lib",
   "type": "module",
   "main": "dist/index.cjs.js",
@@ -21,6 +21,7 @@
     "url": "git+https://github.com/nikola3797/bluecat-ui-lib.git"
   },
   "dependencies": {
+    "@carbon/react": "^1.64.1",
     "react": "18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -44,7 +45,7 @@
     "react": "18.3.1"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@nikola3797"
+    "registry": "https://registry.npmjs.org/"
   },
   "author": "Nikola Veljic",
   "license": "ISC"
