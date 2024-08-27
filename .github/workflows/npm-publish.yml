@@ -21,12 +21,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Check if token is valid
-        run: echo "NPM_AUTH_TOKEN is set"
-        env:
-          NODE_AUTH_TOKEN: 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
-
       - name: Publish to npm
-        run: npm publish --access public
+        run: npm publish --access=public
         env:
-          NODE_AUTH_TOKEN: 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
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}

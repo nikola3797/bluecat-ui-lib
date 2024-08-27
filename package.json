@@ -37,9 +37,6 @@
   "peerDependencies": {
     "react": "18.3.1"
   },
-  "publishConfig": {
-  "registry": "https://npm.pkg.github.com/@nikola3797"
-},
   "author": "Nikola Veljic",
-  "license": "MIT"
+  "license": "ISC"
 }
